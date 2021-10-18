@@ -14,6 +14,6 @@ use app\controllers\Controller;
 $r = new Router();
 $r->data = 3;
 $r->data2 = 31;
-$r->data3 = 56;
+
 
 return $r->run();
