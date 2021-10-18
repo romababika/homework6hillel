@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/homework6hillel",
+  "type": "project",
+  "description": "The homework6hillel.",
+  "license": "MIT",
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+
+    },
+    "classmap": [
+       "app/controllers",
+       "core"
+      ]
+  }
+}
